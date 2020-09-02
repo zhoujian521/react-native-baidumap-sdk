@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      "react-native-baidumap-sdk@0.6.0",
+      "/Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing"
+    ]
+  ],
+  "_from": "react-native-baidumap-sdk@0.6.0",
+  "_id": "react-native-baidumap-sdk@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha1-ebZGVg5ty2GRxudP39mD3TqtzMo=",
+  "_location": "/react-native-baidumap-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-baidumap-sdk@0.6.0",
+    "name": "react-native-baidumap-sdk",
+    "escapedName": "react-native-baidumap-sdk",
+    "rawSpec": "0.6.0",
+    "saveSpec": null,
+    "fetchSpec": "0.6.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-baidumap-sdk/download/react-native-baidumap-sdk-0.6.0.tgz",
+  "_spec": "0.6.0",
+  "_where": "/Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing",
+  "author": {
+    "name": "7c00",
+    "email": "i@7c00.cc"
+  },
+  "bugs": {
+    "url": "https://github.com/qiuxiang/react-native-baidumap-sdk/issues"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-native": "^0.56.18",
+    "supercluster": "^3.0.2"
+  },
+  "description": "React Native BaiduMap SDK for Android + iOS",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.69.0",
+    "react": "^16.2.0",
+    "react-native": "^0.52.3",
+    "react-navigation": "1.5.11",
+    "typescript": "^3.0.3"
+  },
+  "files": [
+    "lib/js",
+    "lib/ios",
+    "lib/android/src",
+    "lib/android/build.gradle"
+  ],
+  "homepage": "https://github.com/qiuxiang/react-native-baidumap-sdk#readme",
+  "keywords": [
+    "react-native",
+    "maps",
+    "mapview",
+    "location",
+    "baidumap"
+  ],
+  "license": "MIT",
+  "main": "lib/js",
+  "name": "react-native-baidumap-sdk",
+  "peerDependencies": {
+    "react-native": ">=0.47"
+  },
+  "presets": [
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuxiang/react-native-baidumap-sdk.git"
+  },
+  "rnpm": {
+    "android": {
+      "sourceDir": "lib/android"
+    }
+  },
+  "scripts": {
+    "log-android": "node node_modules/react-native/local-cli/cli.js log-android",
+    "release-android": "node node_modules/react-native/local-cli/cli.js run-android --variant=release",
+    "reload": "adb reverse tcp:8081 tcp:8081 && adb shell input text rr",
+    "run-android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "run-ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "eslint . && flow"
+  },
+  "version": "0.6.0"
+}

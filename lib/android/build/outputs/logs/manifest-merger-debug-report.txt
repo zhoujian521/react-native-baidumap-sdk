@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:1:1-21:12
+	package
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:5:5-84
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:5:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:13:22-65
+application
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:15:5-20:19
+service#com.baidu.location.f
+ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:16:9-19:41
+	android:process
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:19:13-38
+	android:enabled
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:18:13-35
+	android:name
+		ADDED from /Users/zhoujian/Desktop/workspace/FE_IntelligentMarketing/node_modules/react-native-baidumap-sdk/lib/android/src/main/AndroidManifest.xml:17:13-48
