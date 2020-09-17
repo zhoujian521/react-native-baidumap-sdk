@@ -174,3 +174,42 @@ const reverseResult = await Geocode.reverse({ latitude: 39, longitude: 113 })
 [version-badge]: https://badge.fury.io/js/react-native-baidumap-sdk.svg
 [build-badge]: https://travis-ci.org/qiuxiang/react-native-baidumap-sdk.svg?branch=master
 [build]: https://travis-ci.org/qiuxiang/react-native-baidumap-sdk
+
+### fix
+
+build.gradle
+ext.kotlin_version = '1.3.72'
+
+
+Utils.kt
+fun ReadableArray.toLatLngList(): List<LatLng> {
+    return (0..(this.size() - 1)).map { this.getMap(it)!!.toLatLng() }
+}
+
+BaiduMapHeatMap.kt
+val intensity = if (it!!.hasKey("intensity")) it.getDouble("intensity") else 0.0
+WeightedLatLng(it.toLatLng(), intensity)
+
+
+BaiduMapView.kt
+if (target!!.hasKey("center")) {
+    mapStatusBuilder.target(target.getMap("center").toLatLng())
+}
+
+if (target.hasKey("point")) {
+    val point = target.getMap("point")!!.toPoint()
+    mapStatusBuilder.target(map.projection.fromScreenLocation(point))
+}
+
+if (target.hasKey("region")) {
+    setStatus(MapStatusUpdateFactory.newLatLngBounds(
+        target.getMap("region")!!.toLatLngBounds()), duration)
+} else {
+    setStatus(MapStatusUpdateFactory.newMapStatus(mapStatusBuilder.build()), duration)
+}
+
+
+if (target!!.hasKey("center")) {
+    mapStatusBuilder.target(target.getMap("center")!!.toLatLng())
+}
+
